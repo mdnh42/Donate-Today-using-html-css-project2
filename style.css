@@ -1,22 +1,105 @@
 *
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    margin: 0;
 }
+
+.title{
+    font-size: 40px;
+}
+
+
+
 /* Header Style */
-header{
+.header{
     background-image: url(images/donation1.jpg);
-    width: 100%;
-    text-align: center;
+    background-image: center;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 100% 600px;
+    text-align: center;
+
+    
 }
 .header-title{
-    font-size: 40px;
+    font-size: 50px;
     color: white;
+    padding: 100px;
 }
 
 .description{
     font-size: 18px;
     color: #707070;
+    margin: 40px;
+}
+.btn-primary {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    height: 54px;
+    border: 0;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 18px;
+    margin-bottom: 40px;
+}
+.donate-section{
+    padding: 130px 500px;
+    text-align: center;
+}
+
+
+.donate-amout
+{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.donate-amout p{
+    background-color: orange;
+    padding: 20px;
+    color: antiquewhite;
+    margin-top: 20px;
+}
+
+/* donate Plan */
+.donate-plan{
+    
+    text-align: center;
+    margin: 30px 150px;
+}
+.plan-items
+{
+    display: flex;
+    gap: 20px;
+}
+.items{
+    background-color: antiquewhite;
+    padding: 20px 10px;
+}
+
+/* blog */
+.blogs-section
+{
+    margin: 30px 150px;
+    
+}
+.item{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form{
+    text-align: center;
+}
+
+input{
+    padding: 15px 25px;
+}
+
+footer
+{
+    background-color: navy;
+    text-align: center;
+    padding: 30px 0px;
 }
